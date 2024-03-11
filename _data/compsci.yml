@@ -9,3 +9,38 @@ Unit2:
   description: Learn (JavaScript|Python|Java).  Start Agile development process.
   start: 4
   end: 7
+Unit3:
+  title: Web Application, Data, and N@tM
+  description: Work on Passion Project.
+  start: 8
+  end: 12
+Unit4:
+  title: Warm-up Data Abstraction Project, Create Performance Task (CPT) kickoff
+  description: Trimester 2 will begin with a Mini-project. Great projects begin with frontend style. This project will be using SASS, JavaScript, managing user events and representing Algorithms. Tech talks during this period will be preparing for College Board Create Performance Task.
+  start: 13
+  end: 14
+Unit5:
+  title: CPT design and development, Computer Systems, Networks, Impact of Computing
+  description: Trimester 2 continues with CPT project design and development. Student Teaching will focus on College Board Units 4 and 5.
+  start: 15
+  end: 21
+Unit6:
+  title: Create Performance Task (CPT) and N@tM, MCQ Exam Practice
+  description: Trimester 2 concludes with student presenting their CPT project at N@tM. Each person within "Student Teams" will have their own specialty within the student project that satisfied all their Create Performance Task requirements. Student should be able to talk about design, coding, and present features of their portion of the system.
+  start: 21
+  end: 24
+Unit7: 
+  title: Data Structures
+  description: This is the beginning of a college course following outline of CS113 Data Structures from Mira Costa CC.  Topics, using Python, include searching, sorting, hashing, algorithms, analysis, object-oriented design, collections, lists, stacks, queues, trees, sets, dictionaries, and graphs.
+  start: 25
+  end: 29
+Unit8:
+  title: AP Weeks
+  description: Activities will be focused on supporting students in test preparations, including student teaching.  Days that are not focused on test preparation will be focused on planning for year end project/portfolio.
+  start: 30
+  end: 32
+Unit9:
+  title: Passion Project and N@tM
+  description: Presenting accomplishments for the year by creating a passion project for N@tM.  This project will serve as the year end final exam.
+  start: 33
+  end: 36
