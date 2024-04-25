@@ -8,7 +8,6 @@ courses: { compsci: {week: 7} }
 type: tangibles
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -73,45 +72,38 @@ type: tangibles
             <option value="Suburban">Suburban</option>
             <option value="Rural">Rural</option>
         </select>
-
         <label for="weather">Weather Preference:</label>
         <select id="weather" required>
             <option value="Sunny">Sunny</option>
             <option value="Snowy">Snowy</option>
             <option value="Mild">Mild</option>
         </select>
-
         <label for="publicPrivate">Public or Private:</label>
         <select id="publicPrivate" required>
             <option value="Public">Public</option>
             <option value="Private">Private</option>
         </select>
-
         <label for="populationSize">Population Size:</label>
         <select id="populationSize" required>
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
-
         <label for="tuitionPreference">Tuition Preference:</label>
         <select id="tuitionPreference" required>
             <option value="Low">Low</option>
             <option value="Medium">Medium</option>
             <option value="High">High</option>
         </select>
-
         <label for="orientation">Academic Orientation:</label>
         <select id="orientation" required>
             <option value="STEM">STEM</option>
             <option value="Liberal Arts">Liberal Arts</option>
             <option value="General">General</option>
         </select>
-
         <button type="submit">Find Colleges</button>
     </form>
     <div id="result"></div>
-
     <script>
         function findCollege() {
             const preferences = {
@@ -122,7 +114,6 @@ type: tangibles
                 tuitionPreference: document.getElementById('tuitionPreference').value,
                 orientation: document.getElementById('orientation').value
             };
-
             fetch('http://127.0.0.1:8059/api/college/find', {
                 method: 'POST',
                 headers: {
